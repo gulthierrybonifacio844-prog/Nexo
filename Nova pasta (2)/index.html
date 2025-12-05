@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Controle de Acesso Inteligente</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #eef1f7;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #00c853, #00695c);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      margin-bottom: 35px;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      color: #00695c;
+    }
+    .imagem-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .imagem-container img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #004d40;
+      color: white;
+      margin-top: 40px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .card { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sistema de Controle de Acesso Inteligente</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Sistema de Controle de Acesso Inteligente</h2>
+      <p>Projeto Integrador — 2° Ano A — IFB Campus Ceilândia. Sistema criado para gerenciar a entrada de estudantes no campus usando hardware e software de baixo custo, com foco em IoT, eficiência e segurança.</p>
+      <div class="imagem-container">
+        <img src="WhatsApp Image 2025-12-01 at 22.54.09.jpeg" alt="Logo do grupo">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Integrantes</h2>
+      <p>Filipe Martins Fontinele, Gulthierry Bonifácio de Jesus, Jailson dos Santos Campelo, Mariana Gonçalves de Macedo Freitas, Pedro Gabriel Alves dos Santos.</p>
+      <div class="imagem-container">
+        <img src="WhatsApp Image 2025-12-02 at 14.08.06.jpeg" alt="Foto do grupo">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>O Desafio</h2>
+      <p>Existe a necessidade de gerenciar a entrada de estudantes no Campus Ceilândia de forma segura e eficiente.</p>
+    </div>
+
+    <div class="card">
+      <h2>A Proposta</h2>
+      <p>Criar um sistema inteligente de controle de acesso, integrando hardware e software, centralizado e escalável.</p>
+    </div>
+
+    <div class="card">
+      <h2>Diferencial</h2>
+      <p>Projeto de baixo custo baseado em tecnologias abertas, com interface moderna e intuitiva.</p>
+    </div>
+
+    <div class="card">
+      <h2>Hardware Principal</h2>
+      <p>Raspberry Pi 3 Model B — o cérebro do sistema.</p>
+      <ul>
+        <li>Processador Quad‑Core 1.2 GHz, 1GB RAM.</li>
+        <li>Wi-Fi + Bluetooth integrados.</li>
+        <li>Baixo consumo e alta confiabilidade.</li>
+        <li>Hospeda o banco de dados, servidor e dashboard.</li>
+      </ul>
+      <div class="imagem-container">
+        <img src="WhatsApp Image 2025-12-02 at 22.15.46.jpeg" alt="Raspberry Pi 3 Model B">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Software — Sistema Operacional</h2>
+      <p>Raspberry Pi OS (baseado em Debian). Estável, leve, ideal para aplicações embarcadas e quiosques digitais.</p>
+    </div>
+
+    <div class="card">
+      <h2>Comunicação — Protocolo MQTT</h2>
+      <p>Utilizado pela sua rapidez, baixa latência e funcionamento publish/subscribe.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dashboard de Monitoramento</h2>
+      <p>Interface acessada via navegador (PC ou celular). Exibe entradas em tempo real, cadastro de usuários, permissões e relatórios.</p>
+      <div class="imagem-container">
+        <img src="WhatsApp Image 2025-12-02 at 22.16.24.jpeg" alt="Dashboard do sistema">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Interface na Prática</h2>
+      <div class="imagem-container">
+        <div style="display:flex; gap:15px; justify-content:center; flex-wrap:wrap; width:100%;">
+          <img src="WhatsApp Image 2025-12-02 at 22.16.51.jpeg" alt="Interface 1" style="width:30%; max-width:220px;">
+          <img src="WhatsApp Image 2025-12-02 at 22.17.17.jpeg" alt="Interface 2" style="width:30%; max-width:220px;">
+          <img src="WhatsApp Image 2025-12-02 at 22.17.45.jpeg" alt="Interface 3" style="width:30%; max-width:220px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Tela de Login</h2>
+      <div class="imagem-container">
+        <img src="WhatsApp Image 2025-11-30 at 23.36.14.jpeg" alt="Tela de login">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Validação Técnica</h2>
+      <p>Modelo validado por empresas como a B2Mídia, que utiliza o Raspberry Pi 3 em murais digitais.</p>
+    </div>
+
+    <div class="card">
+      <h2>Arquitetura e Capacidade</h2>
+      <p>Hardware suporta servidor + interface sem travamentos. Arquitetura com Raspberry Pi + ESP32/Arduino torna o sistema escalável.</p>
+    </div>
+
+    <div class="card">
+      <h2>Conectividade</h2>
+      <p>Wi-Fi integrado elimina cabos e permite comunicação eficiente entre servidor, sensores e leitores.</p>
+    </div>
+
+    <div class="card">
+      <h2>Próximos Passos — Curto Prazo</h2>
+      <ul>
+        <li>Integração física entre leitor ESP32 e Raspberry.</li>
+        <li>Testes de comunicação via MQTT.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Próximos Passos — Médio Prazo</h2>
+      <ul>
+        <li>Construção da caixa de proteção.</li>
+        <li>Testes reais com cartões de estudantes.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Conclusão</h2>
+      <p>O sistema é viável técnica e financeiramente. Base totalmente funcional: servidor, dashboard e comunicação inicial.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 — Filipe, Gulthierry, Jailson, Mariana, Pedro Gabriel</p>
+  </footer>
+</body>
+</html>
